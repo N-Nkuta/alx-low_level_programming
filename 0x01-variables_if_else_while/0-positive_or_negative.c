@@ -4,11 +4,10 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - writing a programme that prints out a number
+ * main - program to print a number greater than, or less than, or equals to 0
  *
  * Return: to be 0
  */
-
 int main(void)
 {
 	int n;
@@ -19,9 +18,9 @@ int main(void)
 	if (n > 0)
 		printf("%d is positive", n);
 	else if (n == 0)
-		printf("%d is 0", n);
+		printf("%d is zero", n);
 	else if (n < 0)
 		printf("%d is negative", n);
-	printf("\n")
+	printf("\n");
 	return (0);
 }
