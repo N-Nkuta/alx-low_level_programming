@@ -8,13 +8,14 @@
 
 size_t print_listint(const listint_t *h)
 {
-	size_t sum = 0;
+	size_t sumup;
 
-	while (h != NULL)
+	if (h == NULL)
+		return (0);
+	for (sumup = 0; h != NULL; sumup++)
 	{
 		printf("%d\n", h->n);
-		sum++;
 		h = h->next;
 	}
-	return (sum);
+	return (sumup);
 }
