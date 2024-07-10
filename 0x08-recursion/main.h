@@ -12,5 +12,6 @@ int functional_sqrt_recursion(int n, int a);
 int is_prime_number(int n);
 int functional_prime(int n, int a);
 int is_palindrome(char *s);
+int functional_palindrome(int s, int a);
 
 #endif
